@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      color: white;
+      background-image: url(3.jpg);
+    }
+  </style>
+  <style>
+    header {
+      width: 93%; /* Set the desired width for the header */
+      margin: 0 auto; /* Center the header horizontally */
+      background-image: none;
+      background-size: 78% auto;
+    }
+  </style>
+   <style>
+    .restaurant-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  </style>
+   <style>
+    .restaurant-image {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .animation-left {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      animation: slide-left 2s infinite alternate;
+    }
+
+    .animation-right {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      animation: slide-right 2s infinite alternate;
+    }
+
+    @keyframes slide-left {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-20px);
+      }
+    }
+
+    @keyframes slide-right {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(20px);
+      }
+    }
+  </style>
+  <style>
+    .restaurant-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      perspective: 1000px; /* Set the perspective value for 3D effect */
+    }
+
+    .restaurant-image {
+      position: relative;
+      width: 400px; /* Adjust the width as needed */
+      height: 400px; /* Adjust the height as needed */
+      transform-style: preserve-3d;
+      animation: rotate-card 4s infinite linear;
+    }
+
+    .restaurant-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @keyframes rotate-card {
+      0% {
+        transform: rotateY(0deg);
+      }
+      100% {
+        transform: rotateY(360deg);
+      }
+    }
+    .restaurant-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .restaurant-image {
+      width: 400px; /* Adjust the width as needed */
+      height: 400px; /* Adjust the height as needed */
+      animation: zoom-in-out 2s infinite alternate;
+    }
+
+    .restaurant-image img {
+      width: 70%;
+      height: 90%;
+      object-fit: cover;
+    }
+
+    @keyframes zoom-in-out {
+      0% {
+        transform: scale(0.9);
+      }
+      50% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(0.9);
+      }
+    }
+  </style>
+  <style>
+    .animation-left {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      animation: slide-left 2s infinite alternate;
+    }
+
+    .animation-right {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      animation: slide-right 2s infinite alternate;
+    }
+
+    @keyframes slide-left {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-20px);
+      }
+    }
+
+    @keyframes slide-right {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+   
+    <nav>
+      <ul style=" opacity: 1;background-image: url(FIS.gif); color: aliceblue;">
+        <li><a href="index.html" style="color: aliceblue;">Home</a></li>
+        <li><a href="#"style="color: aliceblue;">Explore</a></li>
+        <li><a href="ras.html"style="color: aliceblue;">My Recipes</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="restaurants">
+      <h2><u> Top Restaurants in Kolkata</u></h2>
+      <div class="restaurant-card">
+          
+        <div class="restaurant-image">
+          <img src="r1.jpg" alt="Restaurant 1" style="position: center;">
+        </div>
+        <div class="restaurant-details">
+            <h3><b>1. Oh! Calcutta </b></h3>
+            <p>Location: Forum Mall, Elgin Road, Kolkata</p>
+            <p>Must-Try Dishes: Bhetki Paturi, Hilsa Bhapa, Kosha Mangsho</p>
+          </div>
+          
+          <div class="animation-left">
+            <img src="animation-left.gif" alt="Animation Left">
+          </div>
+          
+      </div>
+      <div class="restaurant-card">
+        <div class="restaurant-image">
+            <br>
+            <br>
+          <img src="r2.jpg" alt="Restaurant 2">
+        </div>
+        <div class="restaurant-details">
+          <h3><b>2. 6 Ballygunge Place </b>
+            
+            </h3>
+          <p>Location: Ballygunge, Kolkata</p>
+          <p>Must-Try Dishes: Chingri Malai Curry, Bhetki Fish Fry, Mutton Rezala</p>
+        </div>
+      </div>
+      <div class="restaurant-card">
+        <div class="restaurant-image">
+            <br>
+            <br>
+          <img src="r3.jpg" alt="Restaurant 3">
+        </div>
+        
+        <div class="restaurant-details">
+          <h3><b>3. Peter Cat </b></h3>
+          
+          <p>Location: Park Street, Kolkata</p>
+          <p>Must-Try Dishes: Chelo Kebab, Sizzlers, Chelo Kebab Special</p>
+        </div>
+      </div>
+      <div class="restaurant-card">
+        <div class="restaurant-image">
+            <br>
+        <br>
+          <img src="r4.jpg" alt="Restaurant 4">
+        </div>
+        
+        <div class="restaurant-details">
+          <h3><b>4. Bhojohori Manna
+            
+            </b></h3>
+          <p>Location: Multiple Outlets in Kolkata</p>
+          <p>Must-Try Dishes: Prawn Malai Curry, Mochar Ghonto, Aloo Posto</p>
+        </div>
+      </div>
+      <div class="restaurant-card">
+        <div class="restaurant-image">
+            <br>
+            <br>
+          <img src="r5.jpg" alt="Restaurant 5">
+        </div>
+        <div class="animation-right">
+            <img src="animation-right.gif" alt="Animation Right">
+          </div>
+        <div class="restaurant-details">
+          <h3><b>5. Arsalan</b> </h3>
+          <p>Location: Park Circus, Kolkata</p>
+          <p>Must-Try Dishes: Biryani, Chicken Chaap, Reshmi Kebab </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Map Example</title>
+  <style>
+    /* Set the size of the map container */
+    #map-container {
+      width: 100%;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.561056012718!2d88.352851!3d22.475349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277f6d5555555%3A0x355be6c21de03660!2sSouth%20Kolkata!5e0!3m2!1sen!2sin!4v1624996928686!5m2!1sen!2sin"
+      width="100%"
+      height="100%"
+      frameborder="0"
+      style="border:0"
+      allowfullscreen=""
+      aria-hidden="false"
+      tabindex="0"
+    ></iframe>
+  </div>
+  <footer style="background-color: black ;opacity: 0.5;color: #ffffff;">
+    <p>&copy; Recipes By: Manjuri Kar , Contact: manjurikar2002@gmail.com</p>
+    <p> Insta ID: @manjuri25</p>
+  </footer>
+</body>
+</html>

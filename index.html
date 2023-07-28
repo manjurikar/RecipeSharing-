@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe Sharing Platform</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    header {
+      width: 93%; /* Set the desired width for the header */
+      margin: 0 auto; /* Center the header horizontally */
+      background-image: url(so.png);
+      background-size: 78% auto;
+      
+    }
+  </style>
+</head>
+<body style="background-color: #000000 ;">
+  
+  <header>
+   <!----> <h2 style="color: #f5f5f5;"><B><h2><B >:)</B></h2></B></h2>
+
+    <nav>
+      <ul style=" opacity: 0.5; color: aliceblue;">
+        <li><a href="#" style="color: rgb(255, 255, 255);"><b> Home</b></a></li>
+        <li><a href="explore.html" style="color: rgb(255, 254, 254);"><b> Explore</b></a></li>
+        <li><a href="ras.html" style="color: rgb(255, 248, 248);"><b>My Recipes</b></a></li>
+       
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="gif-section" style="background-color: #000000;
+    opacity: 0.8;"
+    ;">
+      <div class="gif-container">
+        <img src="hii.gif"  alt="hii">
+        <img src="RR.gif"  alt="hii">
+        <img src="hii.gif"  alt="hii">
+        <img src="er.gif"  alt="hii">
+        <img src="hii.gif"  alt="hii">
+        
+        </div>
+      </section>
+
+    <section id="intro">
+        <div class="intro-text">
+          <h2 style="text-align: center ; color:  #e8ac35;;"><i>We Believe,</i> " Food is where the heart is <3 "</h2>
+          <p style="font-family: 'Times New Roman', Times, serif; font-size: small;">Welcome to our website, a culinary space where we bring you a collection of recipes that are not only delicious but also healthy, sustainable, and budget-friendly. Our specially curated recipes are designed with your busy lifestyle in mind, offering quick and easy options without compromising on taste or quality. Discover a world of flavors that will tantalize your taste buds while keeping your health and wallet in check. </p>
+        </div>
+        <div class="intro-images">
+          <img src="pancakes.jpg" alt="pancakes">
+          <img src="Momos.jpg" alt="Rasgulla">
+          <img src="kheer.jpg" alt="Kheer">
+          <img src="thali.jpg" alt="thali">
+          <img src="juice.jpg" alt="juice">
+          
+        </div>
+      </section>
+    </section>
+    <section id="filters">
+      <h2 style="color: rgb(255, 255, 255); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><i>Choose the <b style="color: rgb(45, 118, 183); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Recipe</b> you want to make, and all the very best!</i></h2>
+      <label for="cuisine" style="color: rgb(45, 118, 183);"><b> <i> Cuisine: </i></b></label>
+      <select id="cuisine">
+        <option value="none">Select</option>
+        <option value="">All</option>
+        <option value="italian">Italian</option>
+        <option value="indian">Indian</option>
+        <option value="mexican">Mexican</option>
+        <!-- Add more cuisine options -->
+      </select>
+
+      <label for="diet"style="color:rgb(45, 118, 183);"> <b> <i>  Dietary Preference: </i></b></label>
+      <select id="diet">
+        <option value="">All</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="gluten-free">Gluten-free</option>
+        <!-- Add more dietary preference options -->
+      </select>
+    </section>
+
+    <section id="recipes">
+        <div class="recipe-card">
+          <div class="recipe-image">
+            <img src="pasta.jpg" alt="Pasta Carbonara">
+          </div>
+          <div class="recipe-details">
+            <h3>Pasta Carbonara</h3>
+            <p>Cuisine: Italian hh</p>
+            <p>Diet: Non-vegetarian</p>
+            <p>Rating: 4.5 </p>
+            <p>junk: 8</p>
+            <li> <a href="https://youtu.be/RO1zgioVJQc" target="_blank">Click to read full recipe</a></li> 
+            <img src="ptbg.jpg" alt="pastaaa">
+               
+          </div>
+        </div>
+        
+        <div class="recipe-card">
+          <div class="recipe-image">
+            <img src="rasgulla.jpg" alt="Rasgulla">
+          </div>
+          <div class="recipe-details">
+            <h3 style="color: aliceblue;">Rasgulla</h3>
+            <p>Cuisine: Indian</p>
+            <p>Diet: Vegetarian</p>
+            <p>Rating: 4.8</p>
+            <li> <a href="ras.html" target="_blank">Read full</a></li>
+            <img src="rasgulla.jpg" alt="Rasgulla">
+          </div>
+        </div>
+        
+        <div class="recipe-card">
+          <div class="recipe-image">
+            <img src="kheer.jpg" alt="Kheer">
+          </div>
+          <div class="recipe-details">
+            <h3>Kheer</h3>
+            <p>Cuisine: Indian</p>
+            <p>Diet: Vegetarian</p>
+            <p>Rating: 4.6</p>
+            <li> <a href="khe.html" target="_blank">Click to read full recipe</a></li>
+          </div>
+        </div>
+        
+        <div class="recipe-card">
+          <div class="recipe-image">
+            <img src="tiramisu.jpg" alt="Tiramisu">
+          </div>
+          <div class="recipe-details">
+            <h3>Tiramisu</h3>
+            <p>Cuisine: Italian</p>
+            <p>Diet: Vegetarian</p>
+            <p>Rating: 4.8</p>
+            <li> <a href="https://youtu.be/RO1zgioVJQc" target="_blank">Click to read full recipe</a></li>
+          </div>
+        </div>
+        
+        <div class="recipe">
+          <h2>Recipe 1</h2>
+          <p>Rating: <span id="rating1">4.5</span>/5</p>
+          <p><a id="youtubeLink1" href="#">YouTube Video</a></p>
+      </div>
+  
+      <div class="recipe">
+          <h2>Recipe 2</h2>
+          <p>Rating: <span id="rating2">3.8</span>/5</p>
+          <p><a id="youtubeLink2" href="#">YouTube Video</a></p>
+      </div>
+  
+        <!-- Add more recipe cards with images and details -->
+      </section>
+      
+      
+    <div class="side-by-side">
+
+    
+    <aside id="youtube-links" style="background-image: url(pii.gif);">
+        <h2 >Top Picks of the week!</h2>
+        <ul>
+          <li><a href="https://youtu.be/lXbLQ1CQlxQ" target="_blank"> 1. Drums of Heaven </a></li>
+          <li><a href="https://youtu.be/m-xcxtS11hM" target="_blank"> 2. Yakhani pulao</a></li>
+          <li><a href="https://youtu.be/HVnyzsa3LAE" target="_blank">3. Nutella & Coffe Pudding</a></li>
+        </ul>
+      </aside>
+      <section id="grocery-choices" style="background-image: url(la.gif);">
+        <h2>Grocery Choices</h2>
+        <p>Choose the best grocery by listening to the pro </p>
+        
+          <li><a href="groc.html" target="_blank">Click to know</a></li>
+      </section>
+  
+      <section id="healthy-foods" style="background-image: url(pii.gif);">
+        <h2>Healthy Foods of the week!</h2>
+        <p>1. Kiwi juice</p>
+        <p>2. Brocolli wheat pasta </p>
+        <p>3. Chia Pudding</p>
+      </section>
+    </div>
+
+    <section id="ideas">
+      <div class="image-container">
+        <img src="image2.jpg" alt="Image 1">
+        <img src="Citrus.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+      </div>
+    </section>
+  </main>
+<style>
+
+
+    
+    #gif-section {
+      background-color: #f5f5f5;
+      padding: 40px;
+    }
+    
+    #gif-section .gif-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #gif-section img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    #gif-section p {
+      margin-left: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+  
+    
+    <!-- New section with GIF and text -->
+    <section id="gif-section" style="background-image: url(ohh.jpg);">
+      <div class="gif-container">
+        
+        
+        
+
+        
+        <p><B> GOOD<i>  FOOD</i></B> </p>
+        <p>    =    </p>
+        <p><B> GOOD<i>  LIFE</i></B> </p>
+      </div>
+    </section>
+  </main>
+
+  <footer style="background-color: black ;opacity: 0.5;color: #ffffff;">
+    <p>&copy; Recipes By: Manjuri Kar , Contact: manjurikar2002@gmail.com</p>
+    <p> Insta ID: @manjuri25</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

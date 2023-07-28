@@ -1,0 +1,275 @@
+body {
+    background-color: hsla(4, 89%, 51%, 0.877);
+    text-align: left;
+    opacity: 1;
+    padding: 20px;
+    
+    
+    text-decoration: dotted;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration-color: rgb(0, 0, 0);
+    background-image: url('3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  body{
+    background-color: aliceblue;
+  }
+  header {
+    background-color: hsla(0, 0%, 0%, 0.984);
+    padding: 20px;
+    color: #000000;
+    width: auto;
+   
+    background-image: url('so.png');
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #filters {
+    margin-bottom: 20px;
+  }
+  
+  #recipes {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .recipe-card {
+    display: inline-block;
+    width: calc(50%  60px);
+    background-color: #6c80c1;
+    opacity: 0.6;
+    padding: 60px;
+    image-orientation: right;
+    text color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: #f2f2f2;
+  }
+  
+  
+  #ideas {
+    background-color: #0d2d21; /* Green background color */
+    padding: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .image-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .recipe-card.pasta {
+    background-image: url('rasgulla.jpg'); /* Replace 'pasta-background.jpg' with the actual image file path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  #youtube-links {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  #youtube-links h2 {
+    margin-top: 0;
+  }
+  
+  #youtube-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #youtube-links li {
+    margin-bottom: 10px;
+  }
+  
+  #youtube-links a {
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  #youtube-links a:hover {
+    text-decoration: underline;
+  }
+  .side-by-side {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #youtube-links {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  #grocery-choices {
+    background-color: #f2f2f2;
+    position: center;
+    padding: 20px;
+    width: 300px;
+    flex: 1;
+    border-radius: 10px;
+  }
+  
+  #grocery-choices h2 {
+    text-shadow: #333333;
+    margin-top: 0;
+  }
+  #healthy-foods{
+    text-shadow: #333333;
+    position: center;
+    padding: 20px;
+    width: 300px;
+    flex: 1;
+    border-radius: 10px;
+  }
+  #healthy-foods h2 {
+    margin-top: 0;
+    
+    
+  
+  }
+  .side-by-side {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #youtube-links,
+  #grocery-choices,
+  #healthy-foods {
+    width: calc(33.33% - 10px);
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  #youtube-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #youtube-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  #youtube-links ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  #youtube-links{
+
+   background-color: #ffe5ab; /* Replace with your desired color value */
+    padding: 20px;
+    opacity: 0.8;
+  }
+  #grocery-choices {
+
+    background-color: #f8cf2c; /* Replace with your desired color value */
+     padding: 20px;
+     opacity: 0.8;
+   }
+   #healthy-foods {
+
+    
+    background-color: #ffe5ab; /* Replace with your desired color value */
+     padding: 20px;
+     opacity: 0.8;
+     
+   }
+
+  #youtube-links h2,
+  #grocery-choices h2,
+  #healthy-foods h2 {
+    margin-top: 0;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  .recipe-image img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra space */
+    margin-bottom: 10px; /* Add some space below the image */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgb(0, 0, 0); /* Add a subtle shadow effect */
+  }
+  img {
+    display: block;
+    width: 200px;
+  }
+  #intro {
+    background-color: #f2f2f2;
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  .intro-text {
+    color: rgb(15, 67, 15);
+    
+  }
+  
+  .intro-images {
+    display: flex;
+  }
+  
+  .intro-images img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
